@@ -1,0 +1,6 @@
+Upper, Lower
+Remove Whitespace
+Splitting the Strings
+String Concatenation
+String Formatting
+Uploading Files in GitHub
