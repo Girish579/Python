@@ -1,0 +1,90 @@
+Microsoft Windows [Version 10.0.22631.4317]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\Girish\OneDrive\Desktop\Master Python - Nov 11th 2023>python --version
+Python 3.13.0
+
+C:\Users\Girish\OneDrive\Desktop\Master Python - Nov 11th 2023>python
+Python 3.13.0 (tags/v3.13.0:60403a5, Oct  7 2024, 09:38:07) [MSC v.1941 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>>
+>>> exit()
+
+C:\Users\Girish\OneDrive\Desktop\Master Python - Nov 11th 2023>python helloworld.py
+Hello, World!
+
+C:\Users\Girish\OneDrive\Desktop\Master Python - Nov 11th 2023>python
+Python 3.13.0 (tags/v3.13.0:60403a5, Oct  7 2024, 09:38:07) [MSC v.1941 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> if 6 > 4 :
+... print("Six is greater than four")
+...
+  File "<python-input-0>", line 2
+    print("Six is greater than four")
+    ^^^^^
+IndentationError: expected an indented block after 'if' statement on line 1
+>>> if 6 > 4:
+...     print("Six is greater than four")
+...
+Six is greater than four
+>>> if 6 > 4:
+...     print("Six is greater than four")
+... print("Great!")
+...
+Six is greater than four
+Great!
+>>>
+
+>>> if 5 > 2 :
+...     print(" 5 is greater than 2 ")
+...         print("5 is greater than 2")
+...
+  File "<python-input-3>", line 3
+    print("5 is greater than 2")
+IndentationError: unexpected indent
+>>>
+
+NameError: name 'x' is not defined
+>>> x = 10
+>>> y = 22.4
+>>> name = "Girish"
+>>> print(type(x))
+<class 'int'>
+>>> print(type(y))
+<class 'float'>
+>>> print(type(name))
+<class 'str'>
+>>> print(x)
+10
+>>> print(X)
+Traceback (most recent call last):
+  File "<python-input-8>", line 1, in <module>
+    print(X)
+
+C:\Users\Girish\OneDrive\Desktop\Master Python - Nov 11th 2023>python
+Python 3.13.0 (tags/v3.13.0:60403a5, Oct  7 2024, 09:38:07) [MSC v.1941 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> _name = "Girish"
+>>> print(_name)
+Girish
+>>> #name = "Girish"
+>>> @name = "Girish"
+  File "<python-input-3>", line 1
+    @name = "Girish"
+     ^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+>>> 2name = "Girish"
+  File "<python-input-4>", line 1
+    2name = "Girish"
+    ^
+SyntaxError: invalid decimal literal
+>>> name2 = "Girish"
+>>> my-var = "Girish"
+  File "<python-input-6>", line 1
+    my-var = "Girish"
+    ^^^^^^
+SyntaxError: cannot assign to expression here. Maybe you meant '==' instead of '='?
+>>>
+
+
+
