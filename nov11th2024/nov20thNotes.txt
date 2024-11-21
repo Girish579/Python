@@ -1,0 +1,9 @@
+Change List Items
+Insert List Items
+Append List Items
+Extend List
+Remove Items (remove, pop)
+Insert
+Looping the Lists
+Sorting (ascending, descending, reverse())
+
