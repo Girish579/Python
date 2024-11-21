@@ -1,0 +1,3 @@
+Escape Characters ( \",\', \n,\t)
+Python Operators (Comparision, Logical, Identity, Membership)
+List (Creating Lists, List Access with Index, Range of Indexes)
